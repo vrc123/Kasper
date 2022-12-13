@@ -1,0 +1,10 @@
+.musicianInstrumentPreviewInfoDefault {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.musicianInstrumentPreviewInfoDefault div {
+    display: flex;
+    align-items: center;
+}

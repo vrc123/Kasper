@@ -1,0 +1,70 @@
+.welcomeDefault {
+    display: flex;
+    align-items: center;
+    padding: 150px 100px;
+}
+
+.welcomeDefault div {
+    width: 50%;
+    margin-right: 150px;
+}
+
+.welcomeDefault div h1 {
+    margin-bottom: 15px;
+}
+
+.welcomeDefault div p {
+    margin-bottom: 40px;
+}
+
+.welcomeDefault img {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.welcomeDefault button {
+    width: calc(50% - 10px);
+}
+
+.welcomeProfileButtonDefault {
+    width: 100% !important;
+}
+
+.welcomeProfileButtonDefault button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 428px) {   
+    .welcomeDefault {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 15px;
+    }
+
+    .welcomeDefault div {
+        width: 100%;
+        margin: 0;
+        order: 1;
+    }
+
+    .welcomeDefault div h1 {
+        width: 100%;
+        margin-top: 40px;
+        order: 1;
+    }
+    
+    .welcomeDefault img {
+        width: 100%;
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    .welcomeDefault button {
+        width: 100%;
+    }
+    
+    .welcomeProfileButtonDefault button {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.musicianPreviewInfoDefault {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.musicianPreviewInfoDefault button {
+    width: fit-content !important;
+}

@@ -1,0 +1,19 @@
+.musicianInfoContactButtonsDefault {
+    display: flex;
+}
+
+.musicianInfoContactButtonsDefault div {
+    width: 20px;
+    height: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width: 428px) {
+    .musicianInfoContactButtonsDefault {
+        margin-bottom: 0 !important;
+    }
+
+    .musicianInfoContactButtonsDefault button {
+        width: 100%;
+    }
+}

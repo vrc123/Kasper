@@ -1,0 +1,26 @@
+.ensembleForPostFormDefault {
+    display: flex;
+    flex-direction: column;
+}
+
+.ensembleForPostFormDefault p {
+    margin-bottom: 15px;
+}
+
+.ensembleForPostFormDefault label {
+    margin: 15px 0;
+}
+
+.ensembleForPostFormDefault select {
+    margin-bottom: 15px;
+}
+
+.ensembleForPostFormDefault a button {
+    width: 100% !important;
+    margin-top: 0;
+}
+
+.ensembleForPostFormDefault button {
+    width: 100% !important;
+    margin-top: 15px;
+}
